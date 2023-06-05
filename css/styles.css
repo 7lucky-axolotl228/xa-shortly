@@ -61,28 +61,28 @@ img {
   opacity: 0.6;
 }
 
-.button-small {
+.button--small {
   padding: 9px 23px;
   font-size: 15px;
   line-height: 22.5px;
   border-radius: 28px;
 }
 
-.button-big {
+.button--big {
   padding: 14px 40px 12px;
   border-radius: 28px;
   font-size: 20px;
   line-height: 30px;
 }
 
-.button-regtangle-big {
+.button--regtangle-big {
   padding: 18px 40px 16px;
   border-radius: 10px;
   font-size: 20px;
   line-height: 30px;
 }
 
-.button-regtangle-small {
+.button--regtangle-small {
   padding: 8px 30px 8px;
   border-radius: 5px;
   font-size: 15px;
