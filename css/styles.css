@@ -278,9 +278,29 @@ img {
   color: var(--heading-color);
   border: 3px solid transparent;
 }
+
+.url-shortener__input:focus {
+  outline: none;
+}
+
+.url-shortener__input:not(:focus):not(:placeholder-shown):invalid {
+  border-color: var(--red);
+  color: rgb(244, 99, 99, 0.5);
+}
+
 .url-shortener__error-msg {
   display: none;
 }
 
-.url-shortener__submit {
+.url-shortener__input:not(:focus):not(:placeholder-shown):invalid ~ .url-shortener__error-msg {
+  display: block;
+  position: absolute;
+  bottom: -28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.11px;
+  font-style: italic;
+  margin-top: 8px;
+  color: var(--red);
 }
