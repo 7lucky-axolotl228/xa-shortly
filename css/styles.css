@@ -243,12 +243,13 @@ img {
 }
 
 .index-url-shortener-features-wrapper__url-shortener {
-  margin-top: -90px;
+  margin-top: -84px;
 }
 
 /* URL Shortener */
 .url-shortener__form {
   display: flex;
+  width: 1110px;
   padding: 52px 64px;
   border-radius: 10px;
   background-color: var(--purple-lighter);
@@ -269,7 +270,7 @@ img {
   flex-grow: 1;
   width: 100%;
   margin: 0;
-  padding: 14px 32px;
+  padding: 12px 27px;
   border-radius: 10px;
   font-weight: 500;
   font-size: 20px;
@@ -303,4 +304,8 @@ img {
   font-style: italic;
   margin-top: 8px;
   color: var(--red);
+}
+
+.btn-reg-text {
+  margin-right: 5px;
 }
