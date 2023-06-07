@@ -56,6 +56,7 @@ img {
   cursor: pointer;
   color: #fff;
   background-color: var(--skyblue);
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -89,6 +90,17 @@ img {
   border-radius: 5px;
   font-size: 15px;
   line-height: 22.5px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
@@ -219,4 +231,56 @@ img {
   line-height: 36px;
   letter-spacing: 0.15px;
   color: var(--text-color);
+}
+
+
+/* index-url-shortener-features-wrapper */
+
+.index-url-shortener-features-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-bg);
+}
+
+.index-url-shortener-features-wrapper__url-shortener {
+  margin-top: -90px;
+}
+
+/* URL Shortener */
+.url-shortener__form {
+  display: flex;
+  padding: 52px 64px;
+  border-radius: 10px;
+  background-color: var(--purple-lighter);
+  background-image: url("../img/purple-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.url-shortener__input-wrapper {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-right: 24px;
+}
+.url-shortener__input {
+  display: block;
+  flex-grow: 1;
+  width: 100%;
+  margin: 0;
+  padding: 14px 32px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: var(--heading-color);
+  border: 3px solid transparent;
+}
+.url-shortener__error-msg {
+  display: none;
+}
+
+.url-shortener__submit {
 }
