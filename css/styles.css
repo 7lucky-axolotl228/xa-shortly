@@ -250,6 +250,7 @@ img {
 .url-shortener__form {
   display: flex;
   width: 1110px;
+  margin-bottom: 24px;
   padding: 52px 64px;
   border-radius: 10px;
   background-color: var(--purple-lighter);
@@ -308,4 +309,49 @@ img {
 
 .btn-reg-text {
   margin-right: 5px;
+}
+
+/* URL-RESULTS */
+.url-shortener-results {
+}
+.url-shortener__result {
+  display: flex;
+  align-items: center;
+  width: 1110px;
+  padding: 16px 24px 18px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.url-shortener__result:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.url-shortener__original-link {
+  flex-grow: 1;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: var(--heading-color);
+}
+.url-shortener__short-link {
+  margin-right: 26px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: var(--skyblue);
+}
+
+.btn-black {
+  width: 103px;
+  text-align: center;
+  margin-right: 2px;
+  padding: 10px 21px 7px;
+  background-color: var(--purple);
+}
+
+.btn-small-copy {
+  margin-right: 3px;
 }
