@@ -103,6 +103,14 @@ img {
   overflow: hidden;
 }
 
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  color: rgb(52, 49, 61, 0.5);
+  opacity: 1;
+}
+
 
 /* CONTAINER */
 .container {
