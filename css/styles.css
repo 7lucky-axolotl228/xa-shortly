@@ -249,7 +249,7 @@ select:-webkit-autofill:focus {
   color: var(--heading-color);
 }
 
-.hero_text {
+.hero__text {
   margin-top: 0;
   margin-bottom: 38px;
   font-weight: 500;
