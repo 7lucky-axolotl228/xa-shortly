@@ -92,6 +92,7 @@ img {
   line-height: 22.5px;
 }
 
+/* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -103,12 +104,29 @@ img {
   overflow: hidden;
 }
 
+/* PLACEHOLDER STYLES */
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder,
 :-moz-placeholder {
   color: rgb(52, 49, 61, 0.5);
   opacity: 1;
+}
+
+/* AUTOFILL COLOR STYLES */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-color: transparent;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 
