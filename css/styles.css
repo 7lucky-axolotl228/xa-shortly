@@ -374,6 +374,7 @@ select:-webkit-autofill:focus {
   line-height: 36px;
   letter-spacing: 0.15px;
   color: var(--skyblue);
+  text-decoration: none;
 }
 
 .btn-black {
