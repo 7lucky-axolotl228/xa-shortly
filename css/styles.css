@@ -492,3 +492,31 @@ select:-webkit-autofill:focus {
   font-size: 15px;
   line-height: 26px;
 }
+
+/* CTA */
+.cta {
+  background-image: url("../img/cta-purple-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  text-align: center;
+}
+
+.get-started__title {
+  margin-top: 0;
+  margin-left: 33px;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.btn-started {
+  margin-left: 33px;
+}
