@@ -320,8 +320,14 @@ img {
 }
 
 /* URL-RESULTS */
-.url-shortener-results {
+.url-shortener__results {
+  display: none;
 }
+
+.url-shortener__results--open {
+  display: block;
+}
+
 .url-shortener__result {
   display: flex;
   align-items: center;
