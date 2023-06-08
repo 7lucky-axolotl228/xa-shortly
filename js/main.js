@@ -19,8 +19,14 @@ if (elUrlShortener) {
     if (evt.target.matches('.js-copy-short-link-button')) {
       /* Change button text */
       evt.target.textContent = 'Copied!';
+
       /* Change button bgcolor */
       evt.target.classList.add('btn-black');
+
+      /* Copy short link to clipboard */
+
+      navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
+
       /* Reset button text and class*/
       setTimeout(function () {
         evt.target.textContent = 'Copy';
