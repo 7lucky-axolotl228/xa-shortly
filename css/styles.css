@@ -575,6 +575,7 @@ select:-webkit-autofill:focus {
   line-height: 22.5px;
   letter-spacing: -0.23px;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .site-footer__menu-link:active {
